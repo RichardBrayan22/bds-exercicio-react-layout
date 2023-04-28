@@ -1,0 +1,35 @@
+.search-card{
+    margin-bottom: 30px;
+    background-color: #ededed;
+}
+.card-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 20px;
+    height: 86px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-flow: wrap; 
+}
+
+
+.card-container button{
+ width: 28%;
+ height: 40px;
+}
+
+.card-container input{
+    border: none;
+    width: 72%;
+    height: 40px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+@media (min-width:992px){
+    .card-container{
+        padding: 0px 97px;
+    }
+}
+
