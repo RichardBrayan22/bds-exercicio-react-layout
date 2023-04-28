@@ -1,4 +1,4 @@
-import NavBar from '../../components/NavBar';
+
 import './styles.css';
 
 import MainImage from '../../assets/images/main-car.png';
@@ -7,7 +7,6 @@ import Button from '../../components/Button';
 const Home = () => {
   return (
     <>
-      <NavBar />
       <div className="home-container">
         <div className="base-card home-card">
           <div className="home-content-container">
